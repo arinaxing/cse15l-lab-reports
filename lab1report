@@ -1,0 +1,13 @@
+```
+[user@sahara ~]$ cd
+[user@sahara ~]$ ls
+lecture1
+[user@sahara ~]$ cat
+
+
+^C
+[user@sahara ~]$ 
+```
+1. cd is intended to change dirctories, since we did not specify which directory, it will go to (or stay as) default home directory
+2. ls prints the folders in the directory which only has lecture1.
+3. cat leads to an error as nothing is printed
