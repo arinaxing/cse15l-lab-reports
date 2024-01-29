@@ -13,7 +13,7 @@ lecture1
 ^C
 ```
 1. ```cd```: The working directory is ```/home``` when it is run. ```cd``` is intended to change directories, since we did not specify which directory, it will go to (or stay as) default ```/home``` directory. This is not an error.
-2. ```ls```: the working directory is /home when it is run. ```ls``` prints the files and folders of the working directory so therefore it only prints ```/lecture1```. The directories and files under ```/lecture1``` are not printed because they are not under the ```/home``` directory. This is not an error.
+2. ```ls```: the working directory is ```/home``` when it is run. ```ls``` prints the files and folders of the working directory so therefore it only prints ```/lecture1```. The directories and files under ```/lecture1``` are not printed because they are not under the ```/home``` directory. This is not an error.
 3. ```cat```: The working directory is ```/home``` when it is run. ```cat``` is meant to print the contents of a file but with no arguments, there is nothing to print. However, I find that ```cat``` with no argument reads from standard input (keyboard) and writes them to standard output which is printing the input out on the terminal. Using this finding, I realized that whatever I typed gets returned back to me. Therefore, this is not an error. I used ```^C``` to exit this "mode".
 
 
