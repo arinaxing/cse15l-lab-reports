@@ -34,7 +34,7 @@ bash: cd: messages: No such file or directory
 [user@sahara ~/lecture1]$ cd messages
 [user@sahara ~/lecture1/messages]$ 
 ```
-1. ```cd <directory>```: the working directory was ```/lecture1``` after ```cd``` ```/lecture1``` was run as shown by the ```pwd```. This is not an error. When ```cd messages``` was run, however, the working directory was still ```/home``` by default and this produced an error message because in the ``/home``` directory, ```cd``` cannot see files and directories under a different directory. This problem can be solved by changing the working directory to ```/lecture1``` first and then changing it to ```/messages```. ```cd``` can now access ```/lecture1``` directory first and therefore can access the ```/messages``` directory within ```/lecture1```. This is not an error. 
+1. ```cd <directory>``` : the working directory was ```/lecture1``` after ```cd /lecture1``` was run as shown by the ```pwd```. This is not an error. When ```cd messages``` was run, however, the working directory was still ```/home``` by default and this produced an error message because in the ```/home``` directory, ```cd``` cannot see files and directories under a different directory. This problem can be solved by changing the working directory to ```/lecture1``` first and then changing it to ```/messages```. ```cd``` can now access ```/lecture1``` directory first and therefore can access the ```/messages``` directory within ```/lecture1```. This is not an error. 
 ```
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  messages  README
